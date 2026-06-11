@@ -33,7 +33,7 @@ for page in range(1, 51):
         
         all_books.append([title,price,availability,rating,book_link])
         
-        file_path = "/Users/aishutheanalyst/Downloads/books_full_data.csv"
+        file_path = "/Users/analyst/Downloads/books_full_data.csv"
         
         with open(
             file_path,
