@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 
 # Read csv
-books_df = pd.read_csv("/Users/aishutheanalyst/Downloads/books_full_data.csv")
+books_df = pd.read_csv("/Users/analyst/Downloads/books_full_data.csv")
 
 #keep only needed columns
 df =df[["Title","Price"]]
